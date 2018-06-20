@@ -5,10 +5,10 @@ html, body {
 	font-size: 10px;
 	font-family: 'Comfortaa', cursive;
 }
-li {
+.list-items {
 	list-style: none;
 }
-input {
+.input-elm {
 	margin-top: 1em;
 	width: 100%;
 	height: 2em;
@@ -16,13 +16,14 @@ input {
 	border-bottom: 0.1em dotted #ffffff;
 	font-size: 1.1em;
 }
-input[type=radio], input[type=checkbox] {
+.input-radio, .input-checkbox {
 	margin-top: 0.55em;
 	margin-bottom: 0.55em;
 	width: 2em;
-	height: 1.25em;
+	height: 1.15em;
+	vertical-align: middle;
 }
-select {
+.select-elm {
 	margin-top: 1em;
 	width: 100%;
 	background-color: transparent;
@@ -32,7 +33,7 @@ select {
 	-webkit-appearance: none;
   	-webkit-border-radius: 0;
 }
-textarea {
+.textarea-elm {
 	margin-top: 1em;
 	width: 100%;
 	height: 9em;
@@ -40,7 +41,7 @@ textarea {
 	background-color: transparent;
 	border: 0.1em dotted #ffffff;
 }
-button {
+.button-elm {
 	margin: auto;
 	width: 100%;
 	height: 2.75em;
